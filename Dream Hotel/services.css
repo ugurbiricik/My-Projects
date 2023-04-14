@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 234, 234);
+}
+
+/*??????????????????????????????????     HEADER   ???????????????????????????????????????????
+
+/*! header started */
+
+.header {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0.502)),
+    url(hotel.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.521);
+  padding: 10px;
+  text-align: center;
+}
+
+.logo {
+  width: 48px;
+  /* vertical-align: text-bottom; */
+}
+
+/* .header-flex {
+  height: 70px;
+  line-height: 70px;
+} */
+
+.header-img span {
+  font-size: 2rem;
+}
+
+/*! header media query*/
+
+@media screen and (min-width: 768px) {
+  .header-flex {
+    background-color: #ddddddb2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-flex nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+  }
+  .header-img {
+    background-color: unset;
+  }
+}
+
+/*??????????????????????????????????      NAVBAR   ???????????????????????????????????????????
+
+/*! navbar started*/
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hover-span {
+  width: 0%;
+  display: block;
+  height: 2px;
+  background-color: crimson;
+  margin: auto;
+  transition: all 0.5s;
+}
+
+/*! navbar media query */
+
+@media screen and (min-width: 576px) {
+  .navbar ul li {
+    list-style-type: none;
+    margin: 20px;
+    font-size: 1.2rem;
+  }
+  .header h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar ul li:hover .hover-span {
+    width: 100%;
+  }
+}
+
+/*??????????????????????????????????   SERVICES   ???????????????????????????????????????????
+
+
+/*! services started */
+
+.services {
+  text-align: center;
+}
+
+.services h2 {
+  margin-top: 30px;
+  color: red;
+}
+
+.services > p {
+  margin-top: 20px;
+}
+
+.services-text div {
+  text-align: justify;
+  padding: 20px;
+  background-color: #ddd;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 40px 20px;
+  border-radius: 10px;
+}
+
+.services-text div h3 {
+  color: darkcyan;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*! services media query */
+
+@media screen and (min-width: 576px) {
+  .services h2 {
+    font-size: 2rem;
+  }
+  .services > p {
+    font-size: 1.2rem;
+  }
+  .services-text div h3 {
+    font-size: 1.5rem;
+  }
+  .services-text div p {
+    font-size: 1.1rem;
+  }
+  .services-text {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
+
+/*??????????????????????????????????   OUR HOTEL   ???????????????????????????????????????????
+
+
+/*! our-hotel started*/
+
+.our-hotel {
+  text-align: center;
+}
+
+.our-hotel h2 {
+  font-size: 2rem;
+  color: red;
+  margin: 20px;
+}
+
+.our-hotel > p {
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.hotel .hotel-transition {
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.hotel div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hotel div span {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*! our hotel media query*/
+
+@media screen and (min-width: 576px) {
+  .our-hotel h2 {
+    font-size: 2.5rem;
+  }
+  .our-hotel > p {
+    font-size: 1.3rem;
+  }
+  .hotel div span {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hotel-transition {
+    position: relative;
+  }
+  .div-span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .hotel-transition img {
+    margin-bottom: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .div-span span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    font-size: 30px;
+    opacity: 0;
+  }
+  .div-span:hover {
+    background-color: rgba(46, 34, 219, 0.473);
+  }
+  .div-span:hover span {
+    opacity: 1;
+    bottom: 40%;
+    transition: all 0.5s;
+  }
+  .hotel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .hotel .hotel-transition {
+    width: 30%;
+  }
+}
+
+/*??????????????????????????????????   PRIORITIES   ???????????????????????????????????????????
+
+
+/*! priorities started*/
+
+.our-priorities {
+  text-align: center;
+}
+
+.our-priorities h2 {
+  color: red;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.our-priorities > p {
+  margin-bottom: 30px;
+}
+
+.priorities div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.priorities div {
+  margin: 30px 20px;
+  border-radius: 10px;
+}
+
+.our-priorities div span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.our-priorities div p {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+/*! priorities media query */
+
+@media screen and (min-width: 576px) {
+  .our-priorities h2 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+  }
+  .our-priorities > p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  .our-priorities div span {
+    font-size: 1.5rem;
+  }
+  .our-priorities div p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .priorities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .priorities div {
+    width: 30%;
+  }
+}

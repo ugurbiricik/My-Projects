@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 234, 234);
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.504), rgba(0, 0, 0, 0.502)),
+    url(hotel.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.header-img {
+  height: 70px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.521);
+}
+
+.header-img span {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+.logo {
+  width: 48px;
+  vertical-align: bottom;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar ul li {
+  margin: 20px;
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-span {
+  margin-top: 60px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.hover-span {
+  width: 0%;
+  display: block;
+  height: 2px;
+  background-color: crimson;
+  margin: auto;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar ul li:hover .hover-span {
+    width: 100%;
+  }
+}
+
+/*! header media query */
+
+@media screen and (min-width: 576px) {
+  .navbar ul li {
+    font-size: 1.5rem;
+  }
+  .navbar-span {
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddddddd2;
+  }
+  .header-img {
+    background: unset;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar ul li {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .logo {
+    width: 40px;
+  }
+  .navbar-span {
+    margin-top: 200px;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+/*! 2. Bölüm text basladi */
+
+.text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text h1 {
+  margin: 20px;
+}
+
+.text p {
+  margin: 20px;
+  font-size: 1.1rem;
+}
+
+.text a {
+  display: inline-block;
+  margin-top: 15px;
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+}
+
+.text-img {
+  padding: 20px;
+  width: 100%;
+}
+
+/*! text media query */
+
+@media screen and (min-width: 768px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-img {
+    width: 40%;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 0px;
+  }
+  .text-div {
+    width: 45%;
+  }
+}
+
+/*! 3. Bölüm footer basladi */
+
+.footer {
+  margin: 40px;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 32px;
+}
+
+.footer .icons {
+  margin-top: 20px;
+  font-size: 32px;
+  color: red;
+}
+
+.icons i {
+  margin: 10px;
+}
+
+.footer p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.copyright {
+  font-weight: bold;
+}
