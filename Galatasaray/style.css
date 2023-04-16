@@ -21,7 +21,7 @@
 .navbarIcons ul li {
     margin-right: 25px;
     color: rgb(255, 145, 0);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .navbarList {
@@ -115,6 +115,7 @@ a {
     background-color: black;
     margin-top: 30px;
     text-align: center;
+    padding: 10px;
 }
 
 .ourTeam h2 {
@@ -163,3 +164,128 @@ a {
 
 
 /* our team end */
+
+
+/* gs store start */
+
+.store {
+    text-align: center;
+}
+
+.storeContent {
+    margin-top: 20px;
+}
+
+.storeContent h2 {
+    font-size: 2rem;
+}
+
+.storeContent p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.storeContent button {
+    margin-top: 20px;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(230, 75, 75);
+}
+
+.storeImg {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.storeImg img {
+    width: 100%;
+}
+
+
+/* gs store end */
+
+
+/* gallery start */
+
+.gallery {
+    margin-top: 30px;
+    background-color: black;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: orange;
+}
+
+.galleryContent {
+    border-radius: 10px;
+}
+
+.galleryImg {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.galleryImg img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+/* gallery end */
+
+
+/* contact start */
+
+.contact h2 {
+    font-size: 2rem;
+}
+
+
+/* contact end */
+
+
+/* form start */
+
+
+/* form end */
+
+
+/* footer img start */
+
+.footerImg {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footerImg img {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* footer img end */
+
+
+/* footer start */
+
+footer i {
+    margin: 10px;
+}
+
+.arrowUp {
+    font-size: 2rem;
+    color: rgb(211, 88, 88);
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+
+/* footer end */
