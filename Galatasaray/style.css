@@ -119,6 +119,7 @@ a {
 }
 
 .ourTeam h2 {
+    font-size: 2rem;
     padding: 10px;
     color: orange;
 }
@@ -131,6 +132,7 @@ a {
 
 .ourTeamCard img {
     width: 100%;
+    height: 22rem;
     border-radius: 10px 10px 0 0;
 }
 
