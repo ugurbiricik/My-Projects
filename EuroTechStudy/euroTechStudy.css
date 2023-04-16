@@ -254,3 +254,103 @@ header img {
 }
 
 /* discover end */
+
+/* job-ready start */
+
+.container-fluid {
+  background-color: rgb(245, 245, 245);
+}
+
+.job {
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+.jobTitle {
+  font-size: 1.5rem;
+  margin: 0 30px;
+  color: gray;
+}
+
+.jobTitle2 {
+  font-size: 2rem;
+  color: rgba(132, 187, 201, 0.356);
+}
+
+/* job-ready end */
+
+.lastSection {
+  padding-top: 5rem;
+  width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+.lastBox {
+  padding-top: 5rem;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(248, 254, 255, 0.521);
+}
+
+.lastBox i {
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.lastBox h2 {
+  padding-top: 10px;
+}
+
+.lastBox p {
+  padding: 10px 50px;
+}
+
+.lastBox button {
+  padding: 10px 35px;
+}
+
+/* contact start */
+
+.contact {
+  padding-top: 50px;
+  width: 70vw;
+  margin: auto;
+  border-bottom: 1px solid rgba(177, 197, 224, 0.486);
+}
+
+/* contact end */
+
+/* footer start */
+
+.footer {
+  width: 70vw;
+  margin: auto;
+  padding: 20px;
+}
+
+.footerImg {
+  border-right: 1px solid rgba(177, 197, 224, 0.486);
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
+}
+
+.footerSelect {
+  outline: none;
+  border: none;
+  background-color: rgb(245, 245, 245);
+}
+
+.fa-facebook-f {
+  border: 1px solid rgb(222, 247, 247);
+  padding: 8px 10px;
+  color: rgb(53, 100, 187);
+  background-color: rgb(222, 247, 247);
+}
+
+/* footer end */
