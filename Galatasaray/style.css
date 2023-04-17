@@ -20,7 +20,11 @@
   width: 70px;
 }
 
-.navbarIcons ul li {
+.navbarIcons {
+  margin-top: 10px;
+}
+
+.navbarIcons ul li a {
   margin-right: 25px;
   color: rgb(255, 145, 0);
   font-size: 1.2rem;
@@ -28,6 +32,17 @@
 
 .navbarList {
   display: none;
+  margin-top: 15px;
+}
+
+.navbarList a:hover {
+  font-size: 1.6rem;
+  color: rgb(255, 145, 0);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 ul {
@@ -45,9 +60,6 @@ a {
 
 /* navbar end */
 
-@media screen and (min-width: 320px) and (max-width: 576px) {
-}
-
 /* header start */
 
 .headerContainer {
@@ -62,10 +74,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   color: antiquewhite;
 }
 
@@ -85,6 +93,9 @@ a {
   }
   .header img {
     height: 20rem;
+  }
+  .navbar img {
+    margin-left: 20px;
   }
 }
 
@@ -109,9 +120,18 @@ a {
   .navbarIcons ul li {
     display: none;
   }
+  .navbar img {
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .navbar {
+    height: 7rem;
+  }
+  .navbar img {
+    width: 90px;
+  }
   .headerContainer {
     height: 30rem;
   }
@@ -221,23 +241,22 @@ a {
 .ourTeamCard {
   width: 95%;
   margin: auto;
-  border-radius: 10px 10px 0 0;
 }
 
 .ourTeamCard img {
   width: 100%;
-  height: 18rem;
+  height: 15rem;
   border-radius: 10px 10px 0 0;
 }
 
 .ourTeamCard h3 {
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .ourTeamCard p {
   margin-top: 10px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0 10px;
 }
 
@@ -246,17 +265,22 @@ a {
 }
 
 .ourTeamIcons i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 10px;
   color: rgb(14, 106, 109);
 }
 
 .ourTeamCard-inner {
-  border-radius: 10px 10px 0 0;
-  height: 34rem;
+  border-radius: 10px;
+  height: 29rem;
   background-color: white;
-  max-width: 250px;
+  max-width: 200px;
   margin: 10px auto;
+}
+
+.ourTeamCard-inner:hover {
+  margin-top: -40px;
+  transition: all 0.3s;
 }
 
 @media screen and (min-width: 576px) {
@@ -289,7 +313,6 @@ a {
 
 .storeContent h2 {
   font-size: 2rem;
-  color: rgb(201, 50, 50);
 }
 
 .storeContent p {
@@ -317,6 +340,8 @@ a {
 
 .storeImg img {
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .storeFlex {
@@ -432,14 +457,35 @@ a {
   margin-top: 30px;
   width: 50%;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 /* footer img end */
 
 /* footer start */
 
+footer {
+  /* padding: 20px; */
+  height: 5rem;
+}
+
 footer i {
-  margin: 10px;
+  margin: 15px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: orange;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 
 .arrowUp {
@@ -448,6 +494,16 @@ footer i {
   position: fixed;
   right: 15px;
   bottom: 10px;
+}
+
+.arrowUp:hover {
+  color: orange;
+}
+
+@media screen and (min-width: 768px) {
+  .arrowUp {
+    font-size: 3rem;
+  }
 }
 
 /* footer end */
