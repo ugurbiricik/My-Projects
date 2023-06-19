@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Sans+JP:wght@300&family=Pathway+Extreme&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    background-color: rgb(236, 234, 230);
+    font-family: "Pathway Extreme", sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(41, 132, 127);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.containerInput {
+    position: relative;
+    padding: 5px;
+}
+
+#inputTodo {
+    padding: 10px;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#btnTodo {
+    padding: 10px;
+    width: 90px;
+    border-radius: 30px;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    background-color: orangered;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#btnTodo:hover {
+    background-color: rgb(1, 59, 59);
+    color: orangered;
+}
+
+h1 {
+    margin: 10px;
+    color: orangered;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+    font-size: 1.2rem;
+}
+
+li:hover {
+    background-color: rgb(212, 241, 239);
+}
+
+i {
+    color: orangered;
+}
+
+.checked .fa-check {
+    color: #17fa03;
+}
+
+.checked p {
+    color: #17fa03;
+}
+
+.checked {
+    background-color: gold;
+}
+
+.alertContent {
+    margin: 20px 0;
+    border: 1px solid rgb(136, 7, 7);
+    padding: 10px;
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(136, 7, 7);
+}
+
+i:hover {
+    color: rgb(31, 1, 1);
+}
