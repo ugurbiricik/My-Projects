@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montserrat", sans-serif;
+  color: #fff;
+  background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=826&t=st=1686829326~exp=1686829926~hmac=f7d0df2a911714ae5fcf3e34110decd36dbdcf29cd452eb2046fd7fa31235280");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app {
+  background: (0, 0, 0, 0.7);
+  height: 100vh;
+}
+
+.header {
+  padding: 50px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #e6d708;
+  text-shadow: 1px 3px rgba (0, 0, 0, 0.9);
+  margin-bottom: 50px;
+}
+
+.header input {
+  width: 400px;
+  padding: 10px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid #e6d708;
+  text-align: center;
+  font-size: 20px;
+  color: #f2f2f2;
+}
+
+.searchFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnClick {
+  border: 0;
+  background: 0;
+  font-size: 1.5rem;
+  color: rgb(8, 57, 102);
+}
+
+.alert {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.contentFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  height: 450px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.city {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  text-align: center;
+}
+
+.iconDiv {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-xmark {
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 150px;
+}
+
+.temp {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+
+.desc {
+  font-size: 25px;
+  font-style: italic;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+.minmax {
+  font-size: 24px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.8);
+}
