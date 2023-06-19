@@ -6,6 +6,12 @@ const contentFlex = document.querySelector(".contentFlex");
 const removeBtn = document.querySelector(".fa-xmark");
 const alert = document.querySelector(".alert");
 
+/*
+this project will not work without api key. You can get your own API KEY from https://home.openweathermap.org/.
+You can run the application by assigning it to a variable named apiKey you received.
+
+Example: let apiKey = "1231j45345j34j45j56756j67j698978"
+*/
 
 
 //! access to data
