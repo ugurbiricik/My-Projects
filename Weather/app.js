@@ -6,7 +6,7 @@ const contentFlex = document.querySelector(".contentFlex");
 const removeBtn = document.querySelector(".fa-xmark");
 const alert = document.querySelector(".alert");
 
-const apiKey = "59e9cb7da1831410f3fd0f07582e3b03";
+
 
 //! access to data
 const getData = (datas) => {
